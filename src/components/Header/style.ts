@@ -2,22 +2,21 @@ import styled from 'styled-components';
 
 
 export const HeaderContainer = styled.div`
-    height: 1080px;
+    height: 100vh;
 `;
 
 export const TopBar = styled.div`
-    height: 96px;
+    margin: 0 15%;
     display: flex;
     flex-direction: row;
     align-item: center;
     justify-content: space-between;
-    margin: 24px 300px;
+    align-items: center;
     font-size: 14px;
 `;
 
 export const Logo = styled.a`
     padding: 12px 0;
-    width: 72px;
     height: 48px;
     text-decoration: none;
     color: transparent;
@@ -25,7 +24,6 @@ export const Logo = styled.a`
 `;
 
 export const NavBar = styled.nav`
-    width: 377px;
     height: 40px;
 `;
 
@@ -33,7 +31,6 @@ export const MenuList = styled.ul`
     display: flex;
     flex-direction: row;
     list-style: none;
-    
 `;
 
 export const MenuItem = styled.li`
@@ -46,7 +43,7 @@ export const MenuItem = styled.li`
 `;
 
 export const Banner = styled.div`
-    margin-left: 300px;
+    margin-left: 15%;
     margin-top: 238px;
     max-width: 100% !important;
 `;
@@ -177,17 +174,18 @@ export const Twitter = styled.button`
 export const HeadShot = styled.img`
     position: absolute;
     top: 106px;
-    left: 867px;
+    left: 57%;
     z-index; -1;
+    width: 45%;
 `;
 
 export const PurpleBg = styled.div`
-    width: 724px;
+    width: 37%;
     height: 1080px;
     background: #7D00FF;
     opacity: 60%;
     position: absolute;
     top: 0px;
-    left: 1196px;
+    left: 65%;
     z-index: -1;
 `;
