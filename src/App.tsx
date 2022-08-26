@@ -4,6 +4,7 @@ import Banner from './components/Banner/Banner';
 import Company from './components/Company/Company';
 import Header from './components/Header/Header';
 import Services from './components/Services/Services';
+import Testimonial from './components/Testimonial/Testimonial';
 import Work from './components/Work/Work';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Work />
       <Company />
       <Banner />
+      <Testimonial />
     </div>
   );
 }
