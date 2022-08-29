@@ -33,10 +33,10 @@ const Header = () => {
                 <Logo href="#home">A.f</Logo>
                 <NavBar>
                     <MenuList>
-                        <MenuItem><a href="#about">About</a></MenuItem>
-                        <MenuItem><a href="#services">Services</a></MenuItem>
-                        <MenuItem><a href="#work">Works</a></MenuItem>
-                        <MenuItem><a href="#contact">Contact</a></MenuItem>
+                        <MenuItem><a href="#about">Sobre</a></MenuItem>
+                        <MenuItem><a href="#services">Serviços</a></MenuItem>
+                        <MenuItem><a href="#work">Trabalhos</a></MenuItem>
+                        <MenuItem><a href="#contact">Contato</a></MenuItem>
                     </MenuList>
                 </NavBar>
             </TopBar>

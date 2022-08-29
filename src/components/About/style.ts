@@ -10,7 +10,7 @@ export const AboutContainer = styled.div`
 export const AboutImages = styled.div`
     margin-left: 15%;
     margin-top: 100px;
-    max-width: 30%;
+    max-width: 50%;
 `;
 
 export const ComputerImg = styled.img`
@@ -20,13 +20,13 @@ export const ComputerImg = styled.img`
 export const InfoContainer = styled.div`
     margin-left: 80px;
     margin-right: 5%;
-    width: 672px;
+    width: 50%;
     margin-top: 70px;
 `;
 
 export const InfoHeading = styled.h2`
     color: #fff;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 20px;
 `;
@@ -65,7 +65,7 @@ export const Experience = styled.div`
 export const ContactBtn = styled.button`
     width: 162px;
     height: 56px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     color: #fff;
     display: flex;
@@ -78,6 +78,12 @@ export const ContactBtn = styled.button`
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+
+    a{
+        color: #fff;
+        text-decoration: none;
+        margin-right: 2px;
+    }
 
     :hover{
         transform: translateY(-10px);

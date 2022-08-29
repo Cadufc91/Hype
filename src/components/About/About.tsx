@@ -19,17 +19,17 @@ const About = () => {
                 <ComputerImg src={Computer} alt="" />
             </AboutImages>
             <InfoContainer>
-                <InfoHeading>Software Engineer and Infrastructure specialist based in Brazil.</InfoHeading>
-                <InfoText>Morbi quam velit, euismod in imperdiet vitae, elementum et elit. Nunc finibus, felis sit amet sollicitudin sollicitudin, nisi magna feugiat enim, in maximus urna enim ac tortor. Nunc in volutpat ipsum, molestie commodo odio. Quisque auctor nisi mi. Aenean venenatis sapien et interdum interdum.</InfoText>
+                <InfoHeading>Desenvolvendo sites e aplicativos com a melhor experiência do usuário.</InfoHeading>
+                <InfoText>Minhas experiências anteriores trazems uma visão inovadora de quem já esteve do outro lado do desenvolvimento de sites/aplicativos podendo assim contribuir para uma melhor experiência de usuário e desenvolvimento de projetos para todos.</InfoText>
                 <Experience>
                     <div>
-                        <h3>17+ </h3><span>Years of <br></br>Experience</span>
+                        <h3>1 </h3><span>Ano de <br></br>Experiência</span>
                     </div>
                     <div>
-                        <h3>325+ </h3><span>Completed <br></br>Projects</span>
+                        <h3>20+ </h3><span>Projetos <br></br>Concluídos</span>
                     </div>
                 </Experience>
-                <ContactBtn>Say HI <BsArrowRight size={30} /></ContactBtn>
+                <ContactBtn><a href="mailto:fernandes.cadu@gmail.com">Diga oi</a> <BsArrowRight size={30} /></ContactBtn>
             </InfoContainer>
         </AboutContainer>
     )
