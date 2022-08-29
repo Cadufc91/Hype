@@ -16,7 +16,7 @@ import { BsArrowRight } from 'react-icons/bs';
 const Company = () => {
     return(
         <CompanyContainer>
-            <CompanyText>I worked with <ColoredText>289+</ColoredText> Companies all over the World.</CompanyText>
+            <CompanyText>Trabalhei com <ColoredText>289+</ColoredText> empresas ao redor do mundo.</CompanyText>
             <LogoContainer>
                 <LogoItem>
                     <LogoImg src={Youtube} alt="" />
@@ -31,7 +31,7 @@ const Company = () => {
                     <LogoImg src={Sketch} alt="" />
                 </LogoItem>
                 <LogoItem>
-                    <BsArrowRight />
+                    <BsArrowRight size={32}/>
                 </LogoItem>
             </LogoContainer>
         </CompanyContainer>

@@ -5,14 +5,15 @@ export const CompanyContainer = styled.section`
     align-items: center;
     justify-content: center;
     max-width: 68%;
+    width: 70%;
     margin-left: 15%;
 `;
 
 export const CompanyText = styled.p`
     max-width: 16.25%;
-    margin-right: 72px;
+    margin-right: 10px;
     color: #fff;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 400;
 `;
 
@@ -28,10 +29,15 @@ export const LogoContainer = styled.div`
 `;
 
 export const LogoItem = styled.div`
-    margin-right: 24px;
+    margin-right: 20px;
+    height: 125px;
+    width: 125px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `;
     
 export const LogoImg = styled.img`
-    padding: 25px 47px;
-    background: #fff;
+    width: 70%;
 `;

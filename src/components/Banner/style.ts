@@ -40,5 +40,6 @@ export const HireBtn = styled.button`
             text-transform: uppercase;
             font-size: 16px;
             font-weight: 600;
+            margin-right: 5px;
         }
 `;

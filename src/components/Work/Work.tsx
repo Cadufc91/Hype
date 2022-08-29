@@ -47,7 +47,6 @@ const Work = () => {
                         <CardTitle><a href="https://github.com/Cadufc91/Plan-teste">Site desenvolvedora de software</a> </CardTitle>
                         <ProjectLink>View Project</ProjectLink>
                         <BsArrowRight size={20}/>
-
                     </CardInfo>
                 </CardItem>
                 <CardItem>
@@ -56,7 +55,6 @@ const Work = () => {
                         <CardTitle><a href="https://github.com/Cadufc91/Alura-Geek">E-commerce de games e consoles</a> </CardTitle>
                         <ProjectLink>View Project</ProjectLink>
                         <BsArrowRight size={20} />
-
                     </CardInfo>
                 </CardItem>
                 <CardItem>
@@ -65,7 +63,6 @@ const Work = () => {
                         <CardTitle><a href="https://github.com/Cadufc91">Landing page para captação de leads</a> </CardTitle>
                         <ProjectLink>View Project</ProjectLink>
                         <BsArrowRight size={20}/>
-
                     </CardInfo>
                 </CardItem>
                 <CardItem>
@@ -74,7 +71,6 @@ const Work = () => {
                         <CardTitle><a href="https://github.com/Cadufc91/Desafio-H">Landing page para venda de produtos</a></CardTitle>
                         <ProjectLink>View Project</ProjectLink>
                         <BsArrowRight size={20}/>
-
                     </CardInfo>
                 </CardItem>
             </WorkCards>

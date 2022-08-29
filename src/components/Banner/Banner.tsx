@@ -10,8 +10,8 @@ import { BsArrowRight } from 'react-icons/bs';
 const Banner = () => {
     return(
         <BannerContainer>
-            <CTA>Got a project in mind? Let's make<br></br> something awesome <ColoredText>together</ColoredText>.</CTA>
-            <HireBtn><a href="#h">Hire me </a><BsArrowRight size={24}/></HireBtn>
+            <CTA>Tem um projeto que quer tirar do papel? <br></br>Vamos criar algo incrível <ColoredText>juntos</ColoredText>.</CTA>
+            <HireBtn><a href="mailto:fernandes.cadu@gmail.com">Contrate me </a><BsArrowRight size={24}/></HireBtn>
         </BannerContainer>
     )
 };
