@@ -18,7 +18,7 @@ import Projeto5 from '../../assets/img/proj5.jpg';
 import Projeto6 from '../../assets/img/proj6.jpg';
 import { BsArrowRight } from 'react-icons/bs';
 
-const Work = () => {
+export function Work () {
     return(
         <WorkContainer id='work'>
             <WorkTitle>Meus Trabalhos</WorkTitle>

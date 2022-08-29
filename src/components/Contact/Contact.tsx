@@ -26,7 +26,7 @@ import { FiMapPin, FiMail, FiPhone,  } from 'react-icons/fi';
 import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 
-const Contact = () => {
+export function Contact () {
     return(
         <ContactContainer id='contact'>
             <InputContainer>

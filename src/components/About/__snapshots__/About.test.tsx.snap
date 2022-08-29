@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<div
+  class="sc-bczRLJ bYqgBn"
+  id="about"
+>
+  <div
+    class="sc-gsnTZi kEZgUy"
+  >
+    <img
+      alt=""
+      class="sc-dkzDqf bxnkfQ"
+      src="about1.png"
+    />
+  </div>
+  <div
+    class="sc-hKMtZM bBbXrc"
+  >
+    <h2
+      class="sc-eCYdqJ jJXZxN"
+    >
+      Desenvolvendo sites e aplicativos com a melhor experiência do usuário.
+    </h2>
+    <p
+      class="sc-jSMfEi kqVGmU"
+    >
+      Minhas experiências anteriores trazems uma visão inovadora de quem já esteve do outro lado do desenvolvimento de sites/aplicativos podendo assim contribuir para uma melhor experiência de usuário e desenvolvimento de projetos para todos.
+    </p>
+    <div
+      class="sc-gKXOVf blkNSA"
+    >
+      <div>
+        <h3>
+          1 
+        </h3>
+        <span>
+          Ano de 
+          <br />
+          Experiência
+        </span>
+      </div>
+      <div>
+        <h3>
+          20+ 
+        </h3>
+        <span>
+          Projetos 
+          <br />
+          Concluídos
+        </span>
+      </div>
+    </div>
+    <button
+      class="sc-iBkjds iATNfq"
+    >
+      <a
+        href="mailto:fernandes.cadu@gmail.com"
+      >
+        Diga oi
+      </a>
+       
+      <svg
+        fill="currentColor"
+        height="30"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 16 16"
+        width="30"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

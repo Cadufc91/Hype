@@ -26,7 +26,7 @@ import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram, } from 'react-icon
 import { FaFacebookF } from 'react-icons/fa';
 import Photo from '../../assets/img/perfil.png';
 
-const Header = () => {
+export function Header () {
     return(
         <HeaderContainer>
             <TopBar>

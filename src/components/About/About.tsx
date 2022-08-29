@@ -12,7 +12,7 @@ import {
 import Computer from '../../assets/img/about1.png';
 import { BsArrowRight } from 'react-icons/bs';
 
-const About = () => {
+export function About () {
     return(
         <AboutContainer id='about'>
             <AboutImages>

@@ -13,7 +13,7 @@ import Adobe from '../../assets/img/adobe.png';
 import Sketch from '../../assets/img/sketch.png';
 import { BsArrowRight } from 'react-icons/bs';
 
-const Company = () => {
+export function Company () {
     return(
         <CompanyContainer>
             <CompanyText>Trabalhei com <ColoredText>289+</ColoredText> empresas ao redor do mundo.</CompanyText>

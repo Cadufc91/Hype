@@ -18,7 +18,7 @@ import {
 } from './style';
 import { AiFillStar } from 'react-icons/ai';
 
-const Testimonial = () => {
+export function Testimonial () {
     return(
         <TestimonialContainer>
             <TestimonialHeader>

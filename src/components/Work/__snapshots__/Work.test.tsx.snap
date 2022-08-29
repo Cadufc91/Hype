@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<section
+  class="sc-bczRLJ yKxNI"
+  id="work"
+>
+  <h1
+    class="sc-gsnTZi dnxmsr"
+  >
+    Meus Trabalhos
+  </h1>
+  <span
+    class="sc-dkzDqf jdJdDv"
+  />
+  <div
+    class="sc-hKMtZM iXqeDZ"
+  >
+    <div
+      class="sc-eCYdqJ jZNbkl"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi cEPJYg"
+        src="proj1.jpg"
+      />
+      <div
+        class="sc-gKXOVf hXmtcq"
+      >
+        <h2
+          class="sc-iBkjds bnjcEE"
+        >
+          <a
+            href="https://github.com/Cadufc91/SPA"
+          >
+            Site para um SPA
+          </a>
+        </h2>
+        <p
+          class="sc-ftvSup jDzSUa"
+        >
+          Ver Projeto
+        </p>
+        <svg
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ jZNbkl"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi cEPJYg"
+        src="proj2.jpg"
+      />
+      <div
+        class="sc-gKXOVf hXmtcq"
+      >
+        <h2
+          class="sc-iBkjds bnjcEE"
+        >
+          <a
+            href="https://github.com/Cadufc91/controle-financeiro"
+          >
+             Controle Financeiro
+          </a>
+        </h2>
+        <p
+          class="sc-ftvSup jDzSUa"
+        >
+          View Project
+        </p>
+        <svg
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ jZNbkl"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi cEPJYg"
+        src="proj3.jpg"
+      />
+      <div
+        class="sc-gKXOVf hXmtcq"
+      >
+        <h2
+          class="sc-iBkjds bnjcEE"
+        >
+          <a
+            href="https://github.com/Cadufc91/Plan-teste"
+          >
+            Site desenvolvedora de software
+          </a>
+           
+        </h2>
+        <p
+          class="sc-ftvSup jDzSUa"
+        >
+          View Project
+        </p>
+        <svg
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ jZNbkl"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi cEPJYg"
+        src="proj4.jpg"
+      />
+      <div
+        class="sc-gKXOVf hXmtcq"
+      >
+        <h2
+          class="sc-iBkjds bnjcEE"
+        >
+          <a
+            href="https://github.com/Cadufc91/Alura-Geek"
+          >
+            E-commerce de games e consoles
+          </a>
+           
+        </h2>
+        <p
+          class="sc-ftvSup jDzSUa"
+        >
+          View Project
+        </p>
+        <svg
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ jZNbkl"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi cEPJYg"
+        src="proj5.jpg"
+      />
+      <div
+        class="sc-gKXOVf hXmtcq"
+      >
+        <h2
+          class="sc-iBkjds bnjcEE"
+        >
+          <a
+            href="https://github.com/Cadufc91"
+          >
+            Landing page para captação de leads
+          </a>
+           
+        </h2>
+        <p
+          class="sc-ftvSup jDzSUa"
+        >
+          View Project
+        </p>
+        <svg
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-eCYdqJ jZNbkl"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi cEPJYg"
+        src="proj6.jpg"
+      />
+      <div
+        class="sc-gKXOVf hXmtcq"
+      >
+        <h2
+          class="sc-iBkjds bnjcEE"
+        >
+          <a
+            href="https://github.com/Cadufc91/Desafio-H"
+          >
+            Landing page para venda de produtos
+          </a>
+        </h2>
+        <p
+          class="sc-ftvSup jDzSUa"
+        >
+          View Project
+        </p>
+        <svg
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+`;

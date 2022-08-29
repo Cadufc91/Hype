@@ -7,7 +7,7 @@ import {
 } from './style';
 import { BsArrowRight } from 'react-icons/bs';
 
-const Banner = () => {
+export function Banner () {
     return(
         <BannerContainer>
             <CTA>Tem um projeto que quer tirar do papel? <br></br>Vamos criar algo incrível <ColoredText>juntos</ColoredText>.</CTA>

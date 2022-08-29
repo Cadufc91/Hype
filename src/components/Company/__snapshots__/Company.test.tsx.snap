@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<section
+  class="sc-bczRLJ iQAcfI"
+>
+  <p
+    class="sc-gsnTZi kSuNDB"
+  >
+    Trabalhei com 
+    <span
+      class="sc-dkzDqf bEnnWw"
+    >
+      289+
+    </span>
+     empresas ao redor do mundo.
+  </p>
+  <div
+    class="sc-hKMtZM kNfDcb"
+  >
+    <div
+      class="sc-eCYdqJ efgUtu"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi fNgAYy"
+        src="youtube.png"
+      />
+    </div>
+    <div
+      class="sc-eCYdqJ efgUtu"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi fNgAYy"
+        src="google.png"
+      />
+    </div>
+    <div
+      class="sc-eCYdqJ efgUtu"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi fNgAYy"
+        src="adobe.png"
+      />
+    </div>
+    <div
+      class="sc-eCYdqJ efgUtu"
+    >
+      <img
+        alt=""
+        class="sc-jSMfEi fNgAYy"
+        src="sketch.png"
+      />
+    </div>
+    <div
+      class="sc-eCYdqJ efgUtu"
+    >
+      <svg
+        fill="currentColor"
+        height="32"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 16 16"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</section>
+`;

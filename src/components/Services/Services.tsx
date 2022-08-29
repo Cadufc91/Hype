@@ -13,7 +13,7 @@ import {
 import { BsArrowRight, BsBox, BsCode } from 'react-icons/bs';
 import { FiLayers, FiColumns } from 'react-icons/fi';
 
-const Services = () => {
+export function Services () {
     return(
         <ServiceContainer id='services'>
             <ServiceTitle>Serviços</ServiceTitle>
