@@ -35,11 +35,19 @@ export const MenuList = styled.ul`
 
 export const MenuItem = styled.li`
     margin-right: 40px; 
+    transition: all 0.3s ease-in-out;
         a {
             text-decoration: none;
             color: #fff;
             text-transform: uppercase;
+
         };
+        
+        :hover{
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            transform: scale(1.1);
+        }
 `;
 
 export const Banner = styled.div`
@@ -90,14 +98,22 @@ export const ButtonHire = styled.button`
     margin-right: 16px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
 
-        a{
-            text-decoration: none;
-            color: #fff;
-            text-transform: uppercase;
-            font-size: 16px;
-            font-weight: 600;
-        }
+    }
+
+    :hover{
+        transform: translateY(-10px);
+        opacity: 0.5;
+    }
 `;
 
 export const ButtonWork = styled.button`
@@ -107,6 +123,8 @@ export const ButtonWork = styled.button`
     background: #fff;
     border: 1px solid #DFE3EB;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
         
         a{
             text-decoration: none;
@@ -114,6 +132,11 @@ export const ButtonWork = styled.button`
             text-transform: uppercase;
             font-size: 16px;
             font-weight: 600;
+        }
+
+        :hover{
+            transform: translateY(-10px);
+            opacity: 0.5;
         }
 `;
 
@@ -138,6 +161,12 @@ export const Dribbble = styled.button`
     padding: 14px;
     margin-right: 12px;
     cursor: pointer;
+    transition: all 0.3s ease;
+
+    :hover{
+        transform: translateY(-10px);
+        opacity: 0.5;
+    }
 `;
 
 export const Behance = styled.button`
@@ -150,6 +179,12 @@ export const Behance = styled.button`
     color: #fff;
     margin-right: 12px;
     cursor: pointer;
+    transition: all 0.3s ease;
+
+    :hover{
+        transform: translateY(-10px);
+        opacity: 0.5;
+    }
 `;
 
 export const Facebook = styled.button`
@@ -160,6 +195,12 @@ export const Facebook = styled.button`
     padding: 14px;
     margin-right: 12px;
     cursor: pointer;
+    transition: all 0.3s ease;
+
+    :hover{
+        transform: translateY(-10px);
+        opacity: 0.5;
+    }
 `;
 
 export const Twitter = styled.button`
@@ -169,19 +210,25 @@ export const Twitter = styled.button`
     border-radius: 3px;
     padding: 14px;
     cursor: pointer;
+    transition: all 0.3s ease;
+
+    :hover{
+        transform: translateY(-10px);
+        opacity: 0.5;
+    }
 `;
 
 export const HeadShot = styled.img`
     position: absolute;
     top: 106px;
-    left: 57%;
+    left: 55%;
     z-index; -1;
     width: 45%;
 `;
 
 export const PurpleBg = styled.div`
-    width: 37%;
-    height: 1080px;
+    width: 35%;
+    height: 1025px;
     background: #7D00FF;
     opacity: 60%;
     position: absolute;

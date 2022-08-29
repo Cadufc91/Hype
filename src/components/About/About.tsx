@@ -15,7 +15,7 @@ import { BsArrowRight } from 'react-icons/bs';
 
 const About = () => {
     return(
-        <AboutContainer>
+        <AboutContainer id='about'>
             <AboutImages>
                 <ComputerImg src={Computer} alt="" />
                 <WhiteBg />

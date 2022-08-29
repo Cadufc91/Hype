@@ -20,7 +20,7 @@ import { BsArrowRight } from 'react-icons/bs';
 
 const Work = () => {
     return(
-        <WorkContainer>
+        <WorkContainer id='work'>
             <WorkTitle>My Selected Work</WorkTitle>
             <Divider1 />
             <WorkCards>

@@ -15,7 +15,7 @@ import { FiLayers, FiColumns } from 'react-icons/fi';
 
 const Services = () => {
     return(
-        <ServiceContainer>
+        <ServiceContainer id='services'>
             <ServiceTitle>My Service</ServiceTitle>
             <Divider1 />
             <CardsContainer>

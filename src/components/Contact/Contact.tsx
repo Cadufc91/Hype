@@ -30,7 +30,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 const Contact = () => {
     return(
-        <ContactContainer>
+        <ContactContainer id='contact'>
             <InputContainer>
                 <FormTitle>Let me know here.</FormTitle>
                 <Form>
