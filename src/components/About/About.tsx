@@ -3,14 +3,13 @@ import {
     AboutContainer,
     AboutImages,
     ComputerImg,
-    WhiteBg,
     InfoContainer,
     InfoHeading,
     InfoText,
     Experience,
     ContactBtn
 } from './style';
-import Computer from '../../assets/img/about.png';
+import Computer from '../../assets/img/about1.png';
 import { BsArrowRight } from 'react-icons/bs';
 
 const About = () => {
@@ -18,7 +17,6 @@ const About = () => {
         <AboutContainer id='about'>
             <AboutImages>
                 <ComputerImg src={Computer} alt="" />
-                <WhiteBg />
             </AboutImages>
             <InfoContainer>
                 <InfoHeading>Software Engineer and Infrastructure specialist based in Brazil.</InfoHeading>

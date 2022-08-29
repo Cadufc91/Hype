@@ -57,9 +57,8 @@ export const Banner = styled.div`
 `;
 
 export const BannerTitle = styled.h1`
-    width: 758px;
-    height: 196px;
-    font-size: 80px;
+    width: 50%;
+    font-size: 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,10 +73,11 @@ export const ColoredTitle = styled.span`
 `;
 
 export const BannerText = styled.p`
-    width: 673px;
+    width: 50%;
     margin-top: 32px;
+    margin-bottom: 40px;
     height: 96px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
     color: #A5A5A5;
     text-align: left;
@@ -153,7 +153,7 @@ export const SocialMediaTitle = styled.h4`
     margin-bottom: 12px;
 `;
 
-export const Dribbble = styled.button`
+export const Github = styled.button`
     width: 48px;
     height: 48px;
     border: 1px solid #DFE3EB;
@@ -163,23 +163,30 @@ export const Dribbble = styled.button`
     cursor: pointer;
     transition: all 0.3s ease;
 
+    a {
+        color: #000;
+    }
+
     :hover{
         transform: translateY(-10px);
         opacity: 0.5;
     }
 `;
 
-export const Behance = styled.button`
+export const LinkedIn = styled.button`
     width: 48px;
     height: 48px;
     border: none;
     border-radius: 3px;
     padding: 14px;
     background: #7D00FF;
-    color: #fff;
     margin-right: 12px;
     cursor: pointer;
     transition: all 0.3s ease;
+
+    a{
+        color: #fff;
+    }
 
     :hover{
         transform: translateY(-10px);
@@ -197,13 +204,17 @@ export const Facebook = styled.button`
     cursor: pointer;
     transition: all 0.3s ease;
 
+    a {
+        color: #000;
+    }
+
     :hover{
         transform: translateY(-10px);
         opacity: 0.5;
     }
 `;
 
-export const Twitter = styled.button`
+export const Instagram = styled.button`
     width: 48px;
     height: 48px;
     border: 1px solid #DFE3EB;
@@ -211,6 +222,10 @@ export const Twitter = styled.button`
     padding: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
+
+    a {
+        color: #000;
+    }
 
     :hover{
         transform: translateY(-10px);
@@ -220,15 +235,15 @@ export const Twitter = styled.button`
 
 export const HeadShot = styled.img`
     position: absolute;
-    top: 106px;
-    left: 55%;
+    top: 100px;
+    left: 46%;
     z-index; -1;
-    width: 45%;
+    width: 50%;
 `;
 
 export const PurpleBg = styled.div`
     width: 35%;
-    height: 1025px;
+    height: 1000px;
     background: #7D00FF;
     opacity: 60%;
     position: absolute;

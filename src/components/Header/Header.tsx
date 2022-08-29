@@ -15,16 +15,16 @@ import {
     ButtonWork,
     SocialMedia,
     SocialMediaTitle,
-    Dribbble,
-    Behance,
+    Github,
+    LinkedIn,
     Facebook,
-    Twitter,
+    Instagram,
     HeadShot,
     PurpleBg
 } from './style';
-import { AiOutlineDribbble, AiOutlineBehance, AiOutlineTwitter, } from 'react-icons/ai';
+import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram, } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
-import Photo from '../../assets/img/headshot.png';
+import Photo from '../../assets/img/perfil.png';
 
 const Header = () => {
     return(
@@ -41,18 +41,18 @@ const Header = () => {
                 </NavBar>
             </TopBar>
             <Banner>
-                <BannerTitle>Hello, I’m John, a <ColoredTitle>Software Engineer.</ColoredTitle></BannerTitle>
-                <BannerText>Product Designer, UI/UX Designer, and developer based in Brazil. Over the past 17 years, as an art director and designer, I’ve worked with big companies and up-and-coming startups.</BannerText>
+                <BannerTitle>Olá, sou o Carlos,<ColoredTitle>Desenvolvedor Front End.</ColoredTitle></BannerTitle>
+                <BannerText>Profissional com foco no client-side e na experiência do usuário. Utilizo diariamente ReactJS, React Native, Styled Components e Git nos projetos onde estou atuando. E também utilizei jQuery, JavaScript, HTML, CSS, TypeScript, NodeJS e outras tecnologias relacionadas ao Desenvolvimento Web.</BannerText>
                 <Buttons>
-                    <ButtonHire><a href="#h">Hire me</a></ButtonHire>
-                    <ButtonWork><a href="#v">View work</a></ButtonWork>
+                    <ButtonHire><a href="mailto:fernandes.cadu@gmail.com">Contrate me</a></ButtonHire>
+                    <ButtonWork><a href="#work">Trabalhos</a></ButtonWork>
                 </Buttons>
                 <SocialMedia>
                     <SocialMediaTitle>Follow me on</SocialMediaTitle>
-                    <Dribbble><AiOutlineDribbble size={20} /></Dribbble>
-                    <Behance><AiOutlineBehance size={20} /></Behance>
-                    <Facebook><FaFacebookF size={20} /></Facebook>
-                    <Twitter><AiOutlineTwitter size={20} /></Twitter>
+                    <Github><a href="https://github.com/Cadufc91"><AiOutlineGithub size={20} /></a></Github>
+                    <LinkedIn><a href="https://www.linkedin.com/in/carloseduardo-fernandes/"><AiFillLinkedin size={20} /></a></LinkedIn>
+                    <Facebook><a href="https://www.facebook.com/carloseduardo.fernandes.16"><FaFacebookF size={20} /></a></Facebook>
+                    <Instagram><a href="https://www.instagram.com/cadufc"><AiOutlineInstagram size={20} /></a></Instagram>
                 </SocialMedia>
             </Banner>
             <HeadShot src={Photo} alt="" />

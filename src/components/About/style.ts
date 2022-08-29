@@ -3,28 +3,18 @@ import styled from "styled-components";
 export const AboutContainer = styled.div`
     display: flex;
     flex-direction: row;
-    margin-top: 185px;
+    margin-top: 300px;
     height: 795px;
 `;
 
 export const AboutImages = styled.div`
     margin-left: 15%;
     margin-top: 100px;
+    max-width: 30%;
 `;
 
 export const ComputerImg = styled.img`
     width: 100%;
-`;
-
-export const WhiteBg = styled.span`
-    top: 1232px;
-    left: 232px;
-    background: #fff;
-    width: 33%;
-    height: 45%;
-    position: absolute;
-    z-index: -1;
-    border-radius: 5px;
 `;
 
 export const InfoContainer = styled.div`
@@ -87,4 +77,10 @@ export const ContactBtn = styled.button`
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    :hover{
+        transform: translateY(-10px);
+        opacity: 0.5;
+    }
 `;
