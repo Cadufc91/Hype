@@ -49,7 +49,8 @@ export const FeedbackItem = styled.div`
     background: #fff;
     margin-bottom: 4px;
     display: flex;
-    `;
+    border-radius: 4px;
+`;
     
 export const Profile = styled.img`
     width: 52px;
@@ -83,6 +84,7 @@ export const CardClient = styled.p`
 export const FeedbackText = styled.div`
     height: 411px;
     background: #fff;
+    border-radius: 3px;
 `;
 
 export const Top = styled.div`

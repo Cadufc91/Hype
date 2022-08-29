@@ -16,45 +16,43 @@ import {
     ContactItem,
     ContactInfo,
     SocialMedia,
-    Dribbble,
-    Behance,
+    Github,
+    LinkedIn,
     Facebook,
     Instagram,
-    Twitter,
-    Youtube
 } from './style';
 import { IoPaperPlaneOutline } from 'react-icons/io5';
-import { FiMapPin, FiMail, FiPhone, FiDribbble } from 'react-icons/fi';
-import { AiOutlineBehance } from 'react-icons/ai';
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FiMapPin, FiMail, FiPhone,  } from 'react-icons/fi';
+import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 const Contact = () => {
     return(
         <ContactContainer id='contact'>
             <InputContainer>
-                <FormTitle>Let me know here.</FormTitle>
+                <FormTitle>Me mande uma mensagem aqui.</FormTitle>
                 <Form>
                     <FormTop>
-                        <FullName type="text" placeholder='Full Name' />
-                        <Email type="email" placeholder='Email address'/>
+                        <FullName type="text" placeholder='Nome completo' />
+                        <Email type="email" placeholder='Seu e-mail'/>
                     </FormTop>
-                    <Subject type="text" placeholder='Subjects'/>
-                    <TextArea className='message' placeholder='Message'></TextArea>
+                    <Subject type="text" placeholder='Assunto'/>
+                    <TextArea className='message' placeholder='Mensagem'></TextArea>
                 </Form>
-                <SubmiBtn>Send message <IoPaperPlaneOutline size={20}/></SubmiBtn>
+                <SubmiBtn>Enviar Mensagem <IoPaperPlaneOutline size={20}/></SubmiBtn>
             </InputContainer>
             <GitContainer>
-                <ContactTitle>Get In Touch</ContactTitle>
+                <ContactTitle>Entre em contato</ContactTitle>
                 <ContactCards>
                     <ContactItem>
                         <FiMapPin size={32} color="#ED1CA6"/>
-                        <ContactInfo>House #5, Street Number #98, brasilia-	70000-000, Brazil.</ContactInfo>
+                        <ContactInfo>Quissamã, Rio de Janeiro -	28735-000, Brazil.</ContactInfo>
                     </ContactItem>
                     <ContactItem>
                         <FiMail size={32} color="#ED1CA6"/>
                         <ContactInfo>
-                            albert.design@gmail.com
-                            albert.flores@gmail.com
+                            dev.cadu@gmail.com
+                            cadu.dev@gmail.com
                         </ContactInfo>
                     </ContactItem>
                     <ContactItem>
@@ -65,24 +63,18 @@ const Contact = () => {
                         </ContactInfo>
                     </ContactItem>
                     <SocialMedia>
-                        <Dribbble>
-                            <FiDribbble size={20} />
-                        </Dribbble>
-                        <Behance>
-                            <AiOutlineBehance size={20}/>
-                        </Behance>
+                        <Github>
+                            <AiOutlineGithub size={30} />
+                        </Github>
+                        <LinkedIn>
+                            <AiFillLinkedin size={30}/>
+                        </LinkedIn>
                         <Facebook>
-                            <FaFacebookF size={20}/>
+                            <FaFacebookF size={30}/>
                         </Facebook>
-                        <Twitter>
-                            <FaTwitter size={20}/>
-                        </Twitter>
                         <Instagram>
-                            <FaInstagram size={20}/>
+                            <FaInstagram size={30}/>
                         </Instagram>
-                        <Youtube>
-                            <FaYoutube size={20}/>
-                        </Youtube>
                     </SocialMedia>
                 </ContactCards>
             </GitContainer>

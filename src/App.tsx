@@ -3,6 +3,7 @@ import About from './components/About/About';
 import Banner from './components/Banner/Banner';
 import Company from './components/Company/Company';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Services from './components/Services/Services';
 import Testimonial from './components/Testimonial/Testimonial';
@@ -19,6 +20,7 @@ function App() {
       <Banner />
       <Testimonial />
       <Contact />
+      <Footer />
     </div>
   );
 }

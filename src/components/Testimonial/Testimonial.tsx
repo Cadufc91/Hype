@@ -22,7 +22,7 @@ const Testimonial = () => {
     return(
         <TestimonialContainer>
             <TestimonialHeader>
-                <ContainerTitle>Testimonial</ContainerTitle>
+                <ContainerTitle>Depoimentos</ContainerTitle>
                 <Divider2 />
             </TestimonialHeader>
             <FeedbackList>
@@ -31,14 +31,14 @@ const Testimonial = () => {
                         <Profile />
                         <CardInfo>
                             <CardTitle>Sundar Pichai</CardTitle>
-                            <CardClient>CEO & Founder of <span>Google</span></CardClient>
+                            <CardClient>CEO & Founder do <span>Google</span></CardClient>
                         </CardInfo>
                     </FeedbackItem>
                     <FeedbackItem>
                         <Profile />
                         <CardInfo>
                             <CardTitle>Shantanu Narayen</CardTitle>
-                            <CardClient>CEO of <span>Adobe</span></CardClient>
+                            <CardClient>CEO do <span>Adobe</span></CardClient>
                         </CardInfo>
                     </FeedbackItem>
                     <FeedbackItem>
@@ -52,7 +52,7 @@ const Testimonial = () => {
                         <Profile />
                         <CardInfo>
                             <CardTitle>Stewart Butterfield</CardTitle>
-                            <CardClient>CEO & Founder of <span>Slack</span></CardClient>
+                            <CardClient>CEO & Founder do <span>Slack</span></CardClient>
                         </CardInfo>
                     </FeedbackItem>
 
@@ -60,9 +60,9 @@ const Testimonial = () => {
                 <FeedbackText>
                     <Top>
                         <AiFillStar size={23} color='#c5c502'/>
-                        <TopText>5.0 Star Rating</TopText>
+                        <TopText>5.0 Avaliação por entrelas</TopText>
                     </Top>
-                    <RatingText>“If you're looking for someone who will challenge your UX/UI thinking and really cut to the core of what's important for users, then Jesse is your man. On top of that, he brings a level of enthusiasm to the craft that's energizing for everyone who works with him.”</RatingText>
+                    <RatingText>“Se você está procurando alguém que desafie seu pensamento de Front e realmente vá a fundo no que é importante para os usuários, Carlos é o seu homem. Além disso, ele traz um nível de entusiasmo ao ofício que é energizante para todos que trabalham com ele.”</RatingText>
                 </FeedbackText>
             </FeedbackList>
         </TestimonialContainer>

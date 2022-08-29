@@ -11,13 +11,15 @@ export const ContactContainer = styled.section`
 
 export const InputContainer = styled.div`
     background: #fff;
-    max-width: 40%;
+    max-width: 50%;
+    width: 45%;
     margin-right: 24px;
     heigth: 536px;
+    border-radius: 8px;
 `;
 
 export const FormTitle = styled.h3`
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 500;
     margin-left: 48px;
 `;
@@ -33,14 +35,16 @@ export const Form = styled.form`
 export const FormTop = styled.div`
     display: flex;
     flex-direction: row;
-    margin-rigth: 48px;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 48px;
 `;
 
 export const FullName = styled.input`
-    margin-left: 48px;
     margin-right: 16px;
     height: 52px;
     border: 1px solid #DFE3EB;
+    width: 50%;
 
     ::placeholder{
         font-size: 16px;
@@ -51,10 +55,9 @@ export const FullName = styled.input`
 `;
 
 export const Email = styled.input`
-    margin-left: 48px;
-    margin-right: 16px;
     height: 52px;
     border: 1px solid #DFE3EB;
+    width: 50%;
 
     ::placeholder{
         font-size: 16px;
@@ -116,6 +119,7 @@ export const GitContainer = styled.div`
     width: 27%;
     height: 536px;
     background: #fff;
+    border-radius: 8px;
 `;
 
 export const ContactTitle = styled.h3`
@@ -150,18 +154,32 @@ export const SocialMedia = styled.div`
     margin-top: 40px;
 `;
 
-export const Dribbble = styled.button`
+export const Github = styled.button`
     border-radius: 50%;
     background: #DFE3EB;
     border: none;
     padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    :hover{
+        color: #fff;
+        background: #7D00FF;
+    }
 `;
 
-export const Behance = styled.button`
+export const LinkedIn = styled.button`
     border-radius: 50%;
     background: #DFE3EB;
     border: none;
     padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    :hover{
+        color: #fff;
+        background: #7D00FF;
+    }
 `;
 
 export const Facebook = styled.button`
@@ -169,13 +187,13 @@ export const Facebook = styled.button`
     background: #DFE3EB;
     border: none;
     padding: 10px;
-`;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
-export const Twitter = styled.button`
-    border-radius: 50%;
-    background: #DFE3EB;
-    border: none;
-    padding: 10px;
+    :hover{
+        color: #fff;
+        background: #7D00FF;
+    }
 `;
 
 export const Instagram = styled.button`
@@ -183,11 +201,11 @@ export const Instagram = styled.button`
     background: #DFE3EB;
     border: none;
     padding: 10px;
-`;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
-export const Youtube = styled.button`
-    border-radius: 50%;
-    background: #DFE3EB;
-    border: none;
-    padding: 10px;
+    :hover{
+        color: #fff;
+        background: #7D00FF;
+    }
 `;
