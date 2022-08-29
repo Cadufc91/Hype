@@ -16,7 +16,7 @@ import { FiLayers, FiColumns } from 'react-icons/fi';
 const Services = () => {
     return(
         <ServiceContainer id='services'>
-            <ServiceTitle>My Service</ServiceTitle>
+            <ServiceTitle>Serviços</ServiceTitle>
             <Divider1 />
             <CardsContainer>
                 <Cards>
@@ -24,7 +24,7 @@ const Services = () => {
                     <CardInfo>
                         <CardTitle>UI/UX Design</CardTitle>
                         <Divider2 />
-                        <CtaBtn>Discuss now</CtaBtn>
+                        <CtaBtn>Conversar</CtaBtn>
                         <BsArrowRight size={30} />
                     </CardInfo>
                 </Cards>
@@ -33,7 +33,7 @@ const Services = () => {
                     <CardInfo>
                         <CardTitle>Product Design</CardTitle>
                         <Divider2 />
-                        <CtaBtn>Discuss now</CtaBtn>
+                        <CtaBtn>Conversar</CtaBtn>
                         <BsArrowRight size={30} />
 
                     </CardInfo>
@@ -43,7 +43,7 @@ const Services = () => {
                     <CardInfo>
                         <CardTitle>Branding Design</CardTitle>
                         <Divider2 />
-                        <CtaBtn>Discuss now</CtaBtn>
+                        <CtaBtn>Conversar</CtaBtn>
                         <BsArrowRight size={30} />
 
                     </CardInfo>
@@ -53,7 +53,7 @@ const Services = () => {
                     <CardInfo>
                         <CardTitle>Front End Development</CardTitle>
                         <Divider2 />
-                        <CtaBtn>Discuss now</CtaBtn>
+                        <CtaBtn>Conversar</CtaBtn>
                         <BsArrowRight size={30} />
 
                     </CardInfo>

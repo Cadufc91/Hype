@@ -37,10 +37,12 @@ export const CardItem = styled.div`
     margin-bottom: 24px;
     border-radius: 8px;
     max-width: 30%;
+    width: 300px;
 `;
 
 export const CardImage = styled.img`
     width: 100%;
+    height: 150px;
 `;
 
 export const CardInfo = styled.div`
@@ -51,7 +53,17 @@ export const CardInfo = styled.div`
 `;
 
 export const CardTitle = styled.h2`
-    font-size: 24px;
+    font-size: 20px;
+    cursor: pointer;
+
+    a{
+        text-decoration: none;
+        color: #000;
+
+        :hover{
+            color: #ED1CA6;
+        }
+    }
 `;
 
 export const ProjectLink = styled.p`

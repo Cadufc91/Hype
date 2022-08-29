@@ -26,7 +26,7 @@ export const Divider1 = styled.span`
 export const CardsContainer = styled.div`
     display: flex;
     flex-direction: row;
-    max-width: 68%;
+    max-width: 70%;
     height: 351px;
 `;
 
@@ -39,6 +39,12 @@ export const Cards = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    :hover{
+        color: #ED1CA6;
+    }
 `;
 
 export const CardInfo = styled.div`
