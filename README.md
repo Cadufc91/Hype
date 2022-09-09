@@ -14,11 +14,11 @@
  
 </p>
 <h1 align="center">
-    <img alt="Landing Page" title="#LandingPage" src="./assets/banner.png" />
+    <img alt="Landing Page" title="#LandingPage" src="./src/assets/thumb.png" />
 </h1>
 
 <h4 align="center"> 
-	🚧  Hype ♻️ Concluído 🚀 🚧
+	🚧  Hype ♻️ <a href="https://hype-cadufc91.vercel.app/">Concluído</a> 🚀 🚧
 </h4>
 
 <p align="center">
