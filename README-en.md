@@ -15,7 +15,7 @@
  
 </p>
 <h1 align="center">
-    <img alt="LandingPage" title="#LandingPage" src="./src/assets/thumb.jpg" />
+    <img alt="LandingPage" title="#LandingPage" src="./src/assets/thumb.png" />
 </h1>
 
 <h4 align="center"> 
